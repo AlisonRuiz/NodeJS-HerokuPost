@@ -4,7 +4,7 @@ const express = require("express");
 const App = express()
 
 // Definimos algunas variables que usaremos en las distintas funciones
-const port = 3000
+const port = process.env.PORT || 3000
 const options = {
   root: __dirname
 }
